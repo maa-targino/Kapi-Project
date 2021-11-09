@@ -5,5 +5,23 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
-  }
+  },
+  "name": "pipebling-kapi",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maa-targino/PipeBling-Kapi.git"
+  },
+  "author": "Marco Targino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maa-targino/PipeBling-Kapi/issues"
+  },
+  "homepage": "https://github.com/maa-targino/PipeBling-Kapi#readme"
 }
