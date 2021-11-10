@@ -7,7 +7,7 @@ require ('dotenv/config')
 app.use(express.json())
 
 //Import post route
-const posts = require('../routes/posts')
+const posts = require('./routes/posts')
 
 app.use('/posts', posts)
 

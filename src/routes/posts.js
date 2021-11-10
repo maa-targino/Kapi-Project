@@ -6,23 +6,18 @@ router.get('/', (req, res) => {
     res.send('This is our posts page')
 })
 
-router.post('/', (req, res) => {
-    // console.log(req.body)
+router.post('/', async(req, res) => {
     const post = new Post({
         title: req.body.title,
         description: req.body.description
     })
-
-    post.save().then((data) => {
-        res.json(data)
-        // res.statusCode = 201
-        // res.send()
-    }).catch((err) => {
-        // if(err) {
-        //     throw err
-        // }
+    try{
+        const saved = await post.save()
+            res.json(saved)
+    }
+    catch(err){
         res.json({message: err})
-    })
+    }
 })
 
 module.exports = router
