@@ -1,8 +1,0 @@
-#MONGO_DB_URI
-mongodb+srv://kapi:<A53nh4ML48>@kapidb.lrhg4.mongodb.net/kapidb?retryWrites=true&w=majority
-
-#API_KEY_BLING
-44f2537027533058bbe383d30ad603d96dcb6f886fc581aee45a086f63648dd67d89d457
-
-#API_KEY_PIPEDRIVE
-09b09076a68bc809e8d46cf151dd6643492892da
